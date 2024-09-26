@@ -93,7 +93,13 @@ export default function RootLayout({ children }) {
 
         <div className="container">
           <main className="content">{children}</main>
-          <Footer /> {/* Use the new Footer component here */}
+          <footer className="footer">
+            <div className="footer-container">
+              <h1 className="footer-title">Aethereal Nexus</h1>
+              <p className="footer-reserved">Reserved</p>
+            </div>
+          </footer>
+
         </div>
       </body>
     </html>

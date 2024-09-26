@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import localFont from "next/font/local";
 import "./globals.css"; // Global CSS for themes
+import Footer from './Footer';
 
 // Load custom fonts
 const geistSans = localFont({
@@ -93,13 +94,7 @@ export default function RootLayout({ children }) {
 
         <div className="container">
           <main className="content">{children}</main>
-          <footer className="footer">
-            <div className="footer-container">
-              <h1 className="footer-title">Aethereal Nexus</h1>
-              <p className="footer-reserved">Reserved</p>
-            </div>
-          </footer>
-
+          <Footer /> {/* Use the new Footer component here */}
         </div>
       </body>
     </html>

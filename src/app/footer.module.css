@@ -1,0 +1,72 @@
+.footer {
+    background-color: var(--footer-background-color); /* Adjust background color */
+    color: var(--footer-text-color); /* Adjust text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerContainer {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .footerTitle {
+    font-family: "GeistMono";
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footerReserved {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Footer Search Box */
+  .footerSearchBox {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px; /* Space between title and search box */
+  }
+  
+  .footerSearchInput {
+    width: 100%;
+    padding: 10px 40px 10px 12px; /* Adjust padding */
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color); /* Border color */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footerSearchInput:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(0, 160, 255, 0.5);
+  }
+  
+  /* Search Icon in Footer */
+  .footerSearchIcon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #0070f3;
+    pointer-events: none;
+  }
+  
+  /* Home Icon */
+  .homeIcon {
+    display: inline-block;
+    margin-top: 10px; /* Space between search bar and home icon */
+    font-size: 2rem;
+    color: #0070f3;
+    transition: color 0.3s ease;
+  }
+  
+  .homeIcon:hover {
+    color: var(--secondary-color); /* Change color on hover */
+  }
+  

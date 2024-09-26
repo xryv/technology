@@ -64,9 +64,9 @@
 }
 
 .listTitle {
-  font-family: "GeistMono";
+  font-family: "Helvetica Neue", sans-serif; /* Modern font */
   font-size: 2rem;
-  color: #00aaff;
+  color: #333; /* Dark text for better contrast */
   margin-bottom: 20px;
 }
 
@@ -75,44 +75,50 @@
   padding: 0;
 }
 
-.pageLinks li {
-  margin-bottom: 10px;
+.pageItem {
+  margin-bottom: 15px; /* Space between items */
 }
 
 .pageLink {
-  text-decoration: none;
-  color: #0070f3;
-  font-size: 1.2rem;
-  transition: color 0.3s ease, transform 0.3s ease; /* Added transform for hover effect */
+  text-decoration: none; /* No underline */
+  color: #0070f3; /* Link color */
+  font-size: 1.2rem; /* Title font size */
+  transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .pageLink:hover {
-  color: #00aaff;
-  transform: translateY(-2px); /* Subtle lift effect on hover */
+  color: #00aaff; /* Change color on hover */
 }
 
-/* Fade-in animations for a smooth entrance */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Button Styles */
+.showMoreButton {
+  background-color: transparent; /* Transparent background */
+  border: 1px solid #0070f3; /* Border to match link color */
+  color: #0070f3; /* Button text color */
+  font-size: 1rem;
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Space above button */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition for button */
 }
 
+.showMoreButton:hover {
+  background-color: #0070f3; /* Button background on hover */
+  color: white; /* Button text color on hover */
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-  }
-
-  .subtitle {
-    font-size: 1.2rem;
-  }
-
   .listTitle {
     font-size: 1.5rem;
+  }
+
+  .pageLink {
+    font-size: 1rem; /* Adjust title size for mobile */
+  }
+
+  .showMoreButton {
+    font-size: 0.9rem; /* Smaller button text on mobile */
   }
 }

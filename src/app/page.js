@@ -6,6 +6,7 @@ import Link from 'next/link'; // Import Link for navigation
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [showAll, setShowAll] = useState(false); // State to toggle showing all items
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
@@ -25,6 +26,11 @@ export default function Home() {
     { title: 'Quantum Space Navigator', path: 'pages/page10' },
   ];
 
+  const filteredPages = pages.filter(page => 
+    page.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const displayedPages = showAll ? filteredPages : filteredPages.slice(0, 5);
 
   return (
     <div className={styles.container}>
@@ -51,16 +57,22 @@ export default function Home() {
       <div className={styles.pagesList}>
         <h2 className={styles.listTitle}>Latest Technologies</h2>
         <ul className={styles.pageLinks}>
-          {pages.filter(page => 
-            page.title.toLowerCase().includes(searchTerm.toLowerCase())
-          ).map((page) => (
-            <li key={page.path}>
+          {displayedPages.map((page) => (
+            <li key={page.path} className={styles.pageItem}>
               <Link href={page.path} className={styles.pageLink}>
                 {page.title}
               </Link>
             </li>
           ))}
         </ul>
+        {filteredPages.length > 5 && (
+          <button 
+            className={styles.showMoreButton} 
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll ? 'Show Less' : 'Show More'}
+          </button>
+        )}
       </div>
     </div>
   );

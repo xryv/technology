@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import localFont from "next/font/local";
 import "./globals.css"; // Global CSS for themes
-import Footer from './Footer';
 
 // Load custom fonts
 const geistSans = localFont({

@@ -8,7 +8,7 @@ const Page1 = () => {
 
   useEffect(() => {
     const fetchContent = async () => {
-      const response = await fetch('/data/page1.json');
+      const response = await fetch('/data/page2.json');
       const data = await response.json();
       setContent(data);
     };

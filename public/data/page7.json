@@ -5,10 +5,10 @@
     },
     "overview": {
         "title": "Overview",
-        "text": "The Quantum Energy Matrix (QEM) is an innovative platform designed to revolutionize energy production and consumption through quantum technology, promoting sustainability and efficiency in energy management..."
+        "text": "The Quantum Energy Matrix (QEM) is an innovative platform designed to revolutionize energy production and consumption through quantum technology, promoting sustainability and efficiency in energy management."
     },
     "team": {
-        "title": "Team",
+        "title": "Agents",
         "text": "",
         "members": [
             {
@@ -49,11 +49,11 @@
         "title": "Concept and Use Case",
         "problem": {
             "title": "Problem",
-            "text": "The global energy sector is grappling with inefficiencies and environmental impacts due to reliance on non-renewable energy sources and outdated technologies..."
+            "text": "The global energy sector is grappling with inefficiencies and environmental impacts due to reliance on non-renewable energy sources and outdated technologies."
         },
         "solution": {
             "title": "Solution",
-            "text": "The QEM leverages quantum computing to optimize energy production, distribution, and consumption, resulting in a more sustainable and efficient energy ecosystem..."
+            "text": "The QEM leverages quantum computing to optimize energy production, distribution, and consumption, resulting in a more sustainable and efficient energy ecosystem."
         }
     },
     "features": {
@@ -61,23 +61,23 @@
         "list": [
             {
                 "name": "Quantum Energy Optimization",
-                "description": "Utilizes quantum algorithms to optimize energy flows in real-time, reducing waste..."
+                "description": "Utilizes quantum algorithms to optimize energy flows in real-time, reducing waste."
             },
             {
                 "name": "Predictive Energy Management",
-                "description": "Analyzes consumption patterns to predict future energy needs and adjust supply accordingly..."
+                "description": "Analyzes consumption patterns to predict future energy needs and adjust supply accordingly."
             },
             {
                 "name": "Integration with Renewable Sources",
-                "description": "Seamlessly integrates solar, wind, and other renewable sources into the energy matrix..."
+                "description": "Seamlessly integrates solar, wind, and other renewable sources into the energy matrix."
             },
             {
                 "name": "Real-Time Data Analytics",
-                "description": "Provides real-time insights into energy usage and system performance..."
+                "description": "Provides real-time insights into energy usage and system performance."
             },
             {
                 "name": "User-Centric Energy Solutions",
-                "description": "Offers personalized energy solutions tailored to individual or business needs..."
+                "description": "Offers personalized energy solutions tailored to individual or business needs."
             }
         ]
     },
@@ -86,25 +86,25 @@
         "useCases": [
             {
                 "title": "Smart Grid Management",
-                "description": "Utility companies can leverage QEM for managing smart grids, ensuring efficient energy distribution..."
+                "description": "Utility companies can leverage QEM for managing smart grids, ensuring efficient energy distribution."
             },
             {
                 "title": "Residential Energy Savings",
-                "description": "Homeowners can use QEM to optimize their energy usage, leading to significant cost savings..."
+                "description": "Homeowners can use QEM to optimize their energy usage, leading to significant cost savings."
             },
             {
                 "title": "Industrial Energy Efficiency",
-                "description": "Manufacturers can implement QEM to streamline their energy consumption and reduce operational costs..."
+                "description": "Manufacturers can implement QEM to streamline their energy consumption and reduce operational costs."
             },
             {
                 "title": "Sustainable Urban Planning",
-                "description": "Cities can use QEM to design sustainable energy frameworks that meet future demands..."
+                "description": "Cities can use QEM to design sustainable energy frameworks that meet future demands."
             }
         ]
     },
     "future": {
         "title": "The Future of QEM",
-        "text": "As quantum technology advances, the QEM could play a pivotal role in achieving global energy sustainability goals, leading to a cleaner and more efficient world..."
+        "text": "As quantum technology advances, the QEM could play a pivotal role in achieving global energy sustainability goals, leading to a cleaner and more efficient world."
     },
     "footer": {
         "text": "© 2024 Quantum Energy Matrix Technologies"

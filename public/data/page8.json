@@ -5,10 +5,10 @@
     },
     "overview": {
         "title": "Overview",
-        "text": "The Quantum SecureComm (QSC) platform offers unparalleled data security by leveraging the principles of quantum mechanics to create unbreakable encryption protocols, ensuring that sensitive information remains protected from any threat..."
+        "text": "The Quantum SecureComm (QSC) platform offers unparalleled data security by leveraging the principles of quantum mechanics to create unbreakable encryption protocols, ensuring that sensitive information remains protected from any threat."
     },
     "team": {
-        "title": "Team",
+        "title": "Agents",
         "text": "",
         "members": [
             {
@@ -49,11 +49,11 @@
         "title": "Concept and Use Case",
         "problem": {
             "title": "Problem",
-            "text": "With the increasing sophistication of cyber threats, traditional encryption methods are becoming vulnerable, putting sensitive data at risk of interception and exploitation..."
+            "text": "With the increasing sophistication of cyber threats, traditional encryption methods are becoming vulnerable, putting sensitive data at risk of interception and exploitation."
         },
         "solution": {
             "title": "Solution",
-            "text": "The QSC utilizes quantum key distribution and advanced encryption techniques to ensure that data remains secure, even in the face of future quantum attacks..."
+            "text": "The QSC utilizes quantum key distribution and advanced encryption techniques to ensure that data remains secure, even in the face of future quantum attacks."
         }
     },
     "features": {
@@ -61,23 +61,23 @@
         "list": [
             {
                 "name": "Quantum Key Distribution (QKD)",
-                "description": "Employs the principles of quantum mechanics to distribute encryption keys securely, preventing interception..."
+                "description": "Employs the principles of quantum mechanics to distribute encryption keys securely, preventing interception."
             },
             {
                 "name": "Post-Quantum Encryption",
-                "description": "Uses encryption algorithms that are resistant to attacks from both classical and quantum computers..."
+                "description": "Uses encryption algorithms that are resistant to attacks from both classical and quantum computers."
             },
             {
                 "name": "Real-Time Threat Detection",
-                "description": "Integrates advanced AI algorithms to detect and respond to security threats in real-time..."
+                "description": "Integrates advanced AI algorithms to detect and respond to security threats in real-time."
             },
             {
                 "name": "Secure Multi-Party Computation",
-                "description": "Enables multiple parties to jointly compute a function while keeping their inputs private..."
+                "description": "Enables multiple parties to jointly compute a function while keeping their inputs private."
             },
             {
                 "name": "User-Friendly Security Dashboard",
-                "description": "Offers a comprehensive dashboard for users to monitor their data security status and compliance..."
+                "description": "Offers a comprehensive dashboard for users to monitor their data security status and compliance."
             }
         ]
     },
@@ -86,25 +86,25 @@
         "useCases": [
             {
                 "title": "Corporate Data Security",
-                "description": "Organizations can use QSC to protect sensitive corporate data and communications from espionage..."
+                "description": "Organizations can use QSC to protect sensitive corporate data and communications from espionage."
             },
             {
                 "title": "Government Communications",
-                "description": "Governments can secure classified communications and sensitive information with quantum encryption..."
+                "description": "Governments can secure classified communications and sensitive information with quantum encryption."
             },
             {
                 "title": "Financial Transactions",
-                "description": "Banks and financial institutions can ensure that transaction data remains confidential and secure..."
+                "description": "Banks and financial institutions can ensure that transaction data remains confidential and secure."
             },
             {
                 "title": "Healthcare Data Protection",
-                "description": "Hospitals and clinics can safeguard patient records and sensitive health information..."
+                "description": "Hospitals and clinics can safeguard patient records and sensitive health information."
             }
         ]
     },
     "future": {
         "title": "The Future of QSC",
-        "text": "As quantum technology continues to evolve, Quantum SecureComm is positioned to lead the way in secure communications, setting new standards for data privacy and security across industries..."
+        "text": "As quantum technology continues to evolve, Quantum SecureComm is positioned to lead the way in secure communications, setting new standards for data privacy and security across industries."
     },
     "footer": {
         "text": "© 2024 Quantum SecureComm Technologies"

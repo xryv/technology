@@ -5,10 +5,10 @@
     },
     "overview": {
         "title": "Overview",
-        "text": "The Quantum BioHarmonics Device (QBD) is an innovative wearable technology designed to harmonize bodily frequencies using quantum principles, promoting health and wellness in a holistic manner..."
+        "text": "The Quantum BioHarmonics Device (QBD) is an innovative wearable technology designed to harmonize bodily frequencies using quantum principles, promoting health and wellness in a holistic manner."
     },
     "team": {
-        "title": "Team",
+        "title": "Agents",
         "text": "",
         "members": [
             {
@@ -49,11 +49,11 @@
         "title": "Concept and Use Case",
         "problem": {
             "title": "Problem",
-            "text": "In a world filled with stress and distractions, maintaining physical and mental balance is a challenge, leading to health issues and decreased well-being..."
+            "text": "In a world filled with stress and distractions, maintaining physical and mental balance is a challenge, leading to health issues and decreased well-being."
         },
         "solution": {
             "title": "Solution",
-            "text": "The QBD utilizes quantum technologies to create harmonizing frequencies tailored to individual users, promoting overall well-being and stress reduction..."
+            "text": "The QBD utilizes quantum technologies to create harmonizing frequencies tailored to individual users, promoting overall well-being and stress reduction."
         }
     },
     "features": {
@@ -61,23 +61,23 @@
         "list": [
             {
                 "name": "Personalized Frequency Modulation",
-                "description": "QBD offers customized frequency profiles that adapt to individual health needs and preferences..."
+                "description": "QBD offers customized frequency profiles that adapt to individual health needs and preferences."
             },
             {
                 "name": "Real-Time Biofeedback",
-                "description": "The device continuously monitors physiological parameters and adjusts harmonizing frequencies accordingly..."
+                "description": "The device continuously monitors physiological parameters and adjusts harmonizing frequencies accordingly."
             },
             {
                 "name": "Holistic Wellness Tracking",
-                "description": "Users can track their health metrics, including stress levels, sleep quality, and energy balance over time..."
+                "description": "Users can track their health metrics, including stress levels, sleep quality, and energy balance over time."
             },
             {
                 "name": "Integrated Mindfulness Practices",
-                "description": "The QBD features guided mindfulness exercises that enhance relaxation and promote mental clarity..."
+                "description": "The QBD features guided mindfulness exercises that enhance relaxation and promote mental clarity."
             },
             {
                 "name": "Portable and User-Friendly Design",
-                "description": "Designed for everyday use, the QBD is lightweight, portable, and easy to integrate into daily routines..."
+                "description": "Designed for everyday use, the QBD is lightweight, portable, and easy to integrate into daily routines."
             }
         ]
     },
@@ -86,25 +86,25 @@
         "useCases": [
             {
                 "title": "Stress Management",
-                "description": "Individuals can use QBD to manage stress levels, promoting relaxation and mental clarity..."
+                "description": "Individuals can use QBD to manage stress levels, promoting relaxation and mental clarity."
             },
             {
                 "title": "Wellness Programs",
-                "description": "Fitness and wellness centers can incorporate QBD into their programs to enhance client experiences..."
+                "description": "Fitness and wellness centers can incorporate QBD into their programs to enhance client experiences."
             },
             {
                 "title": "Personal Health Tracking",
-                "description": "Users can leverage QBD to monitor their health and wellness journey effectively..."
+                "description": "Users can leverage QBD to monitor their health and wellness journey effectively."
             },
             {
                 "title": "Therapeutic Applications",
-                "description": "Health practitioners can use QBD in therapy sessions to help clients achieve balance and harmony..."
+                "description": "Health practitioners can use QBD in therapy sessions to help clients achieve balance and harmony."
             }
         ]
     },
     "future": {
         "title": "The Future of QBD",
-        "text": "As quantum health technologies advance, the QBD could play a crucial role in preventive healthcare and personalized medicine..."
+        "text": "As quantum health technologies advance, the QBD could play a crucial role in preventive healthcare and personalized medicine."
     },
     "footer": {
         "text": "© 2024 Quantum Bioharmonics Technologies"

@@ -1,32 +1,35 @@
 "use client";
 
-import { useState } from 'react';
-import styles from './page.module.css';
-import Link from 'next/link'; // Import Link for navigation
+import { useState, useEffect } from "react";
+import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [showAll, setShowAll] = useState(false); // State to toggle showing all items
+  const [pages, setPages] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [showAll, setShowAll] = useState(false);
+
+  // Fetch pages from the API route
+  const loadPages = async () => {
+    try {
+      const response = await fetch("/api/pages"); // Fetching from the dynamic API
+      const data = await response.json();
+      setPages(data); // Update state with fetched pages
+    } catch (error) {
+      console.error("Error fetching pages:", error);
+    }
+  };
+
+  useEffect(() => {
+    // Load pages when the component mounts
+    loadPages();
+  }, []);
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  // List of available technology pages (you may dynamically load this from the pages directory)
-  const pages = [
-    { title: 'Quantum Convergence Processor', path: 'pages/page1' },
-    { title: 'Quantum MindMesh', path: 'pages/page2' },
-    { title: 'Quantum EcoSphere', path: 'pages/page3' },
-    { title: 'Quantum Neural Synthesizer', path: 'pages/page4' },
-    { title: 'Quantum BioHarmonics Device', path: 'pages/page5' },
-    { title: 'Quantum Health Nexus', path: 'pages/page6' },
-    { title: 'Quantum Energy Matrix', path: 'pages/page7' },
-    { title: 'Quantum SecureComm', path: 'pages/page8' },
-    { title: 'Quantum Reality Enhancer', path: 'pages/page9' },
-    { title: 'Quantum Space Navigator', path: 'pages/page10' },
-  ];
-
-  const filteredPages = pages.filter(page => 
+  const filteredPages = pages.filter((page) =>
     page.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -35,9 +38,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
-        <h1 className={styles.title}>
-          Discover the Future of Technology
-        </h1>
+        <h1 className={styles.title}>Discover the Future of Technology</h1>
         <p className={styles.subtitle}>
           Find groundbreaking technologies and the visionaries behind them.
         </p>
@@ -66,11 +67,11 @@ export default function Home() {
           ))}
         </ul>
         {filteredPages.length > 5 && (
-          <button 
-            className={styles.showMoreButton} 
+          <button
+            className={styles.showMoreButton}
             onClick={() => setShowAll(!showAll)}
           >
-            {showAll ? 'Show Less' : 'Show More'}
+            {showAll ? "Show Less" : "Show More"}
           </button>
         )}
       </div>

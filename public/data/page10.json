@@ -5,10 +5,10 @@
     },
     "overview": {
         "title": "Overview",
-        "text": "The Quantum Space Navigator (QSN) is an advanced quantum computing device designed to analyze and visualize cosmic phenomena, enabling scientists and astronomers to explore and navigate the universe like never before..."
+        "text": "The Quantum Space Navigator (QSN) is an advanced quantum computing device designed to analyze and visualize cosmic phenomena, enabling scientists and astronomers to explore and navigate the universe like never before."
     },
     "team": {
-        "title": "Team",
+        "title": "Agents",
         "text": "",
         "members": [
             {
@@ -45,11 +45,11 @@
         "title": "Concept and Use Case",
         "problem": {
             "title": "Problem",
-            "text": "Traditional astronomical tools often struggle to provide real-time insights into complex cosmic events, limiting our understanding of the universe..."
+            "text": "Traditional astronomical tools often struggle to provide real-time insights into complex cosmic events, limiting our understanding of the universe."
         },
         "solution": {
             "title": "Solution",
-            "text": "The QSN utilizes quantum computing to analyze vast amounts of cosmic data, offering real-time visualization and simulation of astronomical phenomena, enhancing research and education in astrophysics..."
+            "text": "The QSN utilizes quantum computing to analyze vast amounts of cosmic data, offering real-time visualization and simulation of astronomical phenomena, enhancing research and education in astrophysics."
         }
     },
     "features": {
@@ -57,23 +57,23 @@
         "list": [
             {
                 "name": "Real-Time Cosmic Simulation",
-                "description": "Utilizes quantum algorithms to simulate cosmic events in real-time, enabling researchers to visualize phenomena as they occur..."
+                "description": "Utilizes quantum algorithms to simulate cosmic events in real-time, enabling researchers to visualize phenomena as they occur."
             },
             {
                 "name": "Advanced Data Processing",
-                "description": "Capable of processing and analyzing data from multiple telescopes and satellites simultaneously, providing comprehensive insights..."
+                "description": "Capable of processing and analyzing data from multiple telescopes and satellites simultaneously, providing comprehensive insights."
             },
             {
                 "name": "Interactive Visualization Tools",
-                "description": "Offers a suite of interactive tools for users to explore cosmic data, customize simulations, and analyze results..."
+                "description": "Offers a suite of interactive tools for users to explore cosmic data, customize simulations, and analyze results."
             },
             {
                 "name": "Collaboration Platform",
-                "description": "Facilitates collaboration among scientists by providing a shared platform for data analysis and research projects..."
+                "description": "Facilitates collaboration among scientists by providing a shared platform for data analysis and research projects."
             },
             {
                 "name": "Educational Modules",
-                "description": "Includes educational resources and modules for institutions to teach astrophysics through engaging simulations..."
+                "description": "Includes educational resources and modules for institutions to teach astrophysics through engaging simulations."
             }
         ]
     },
@@ -82,25 +82,25 @@
         "useCases": [
             {
                 "title": "Astronomical Research",
-                "description": "Researchers can utilize QSN to analyze cosmic events, from supernovae to black hole interactions, enhancing scientific understanding..."
+                "description": "Researchers can utilize QSN to analyze cosmic events, from supernovae to black hole interactions, enhancing scientific understanding."
             },
             {
                 "title": "Educational Institutions",
-                "description": "Schools and universities can use QSN to teach complex astrophysical concepts through interactive simulations and visualizations..."
+                "description": "Schools and universities can use QSN to teach complex astrophysical concepts through interactive simulations and visualizations."
             },
             {
                 "title": "Space Exploration Missions",
-                "description": "Supports space agencies in planning missions by simulating and visualizing potential cosmic encounters and challenges..."
+                "description": "Supports space agencies in planning missions by simulating and visualizing potential cosmic encounters and challenges."
             },
             {
                 "title": "Public Outreach Programs",
-                "description": "Facilitates public engagement with astronomy by providing tools for community events and planetarium displays..."
+                "description": "Facilitates public engagement with astronomy by providing tools for community events and planetarium displays."
             }
         ]
     },
     "future": {
         "title": "The Future of QSN",
-        "text": "As quantum computing advances, the Quantum Space Navigator will revolutionize our exploration of the universe, enabling deeper insights and fostering collaboration across scientific disciplines..."
+        "text": "As quantum computing advances, the Quantum Space Navigator will revolutionize our exploration of the universe, enabling deeper insights and fostering collaboration across scientific disciplines."
     },
     "footer": {
         "text": "© 2024 Quantum Space Technologies"

@@ -1,0 +1,33 @@
+/* Shipping List Page Styles */
+
+.shipping-list {
+  /* Add styles specific to the shipping list page container here if needed */
+}
+
+.shipping-list h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.shipping-list h2 {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.shipping-list ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.shipping-list ul li {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.shipping-list ul li strong {
+  color: var(--primary-color); /* Accent color for strong elements */
+  font-weight: bold;
+}

@@ -3,12 +3,16 @@
 import React, { useEffect, useState } from 'react';
 import styles from './page.module.css';
 
-const Page1 = () => {
+const Page = () => {
   const [content, setContent] = useState(null);
 
   useEffect(() => {
     const fetchContent = async () => {
-      const response = await fetch('/data/page1.json');
+      // Get the current path and extract the page number
+      const pathSegments = window.location.pathname.split('/');
+      const pageName = pathSegments[pathSegments.length - 1]; // Get the last segment, e.g., 'page11'
+
+      const response = await fetch(`/data/${pageName}.json`); // Use the extracted page name in the fetch URL
       const data = await response.json();
       setContent(data);
     };
@@ -18,6 +22,11 @@ const Page1 = () => {
   if (!content) {
     return <div>Loading...</div>;
   }
+
+  // Example of extra resources
+  const extraResources = [
+    { name: 'Resource 1', url: 'page1/resource1' },
+  ];
 
   return (
     <div className={styles.container}>
@@ -81,6 +90,20 @@ const Page1 = () => {
         <p>{content.future.text}</p>
       </section>
 
+      {/* New Section for Extra Resources */}
+      <section className={styles.extraResources}>
+        <h2>Extra Resources</h2>
+        <ul>
+          {extraResources.map((resource, index) => (
+            <li key={index}>
+              <a href={resource.url} target="_blank" rel="noopener noreferrer">
+                {resource.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <footer className={styles.footer}>
         <p>{content.footer.text}</p>
       </footer>
@@ -88,4 +111,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default Page;
